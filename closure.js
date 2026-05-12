@@ -1,3 +1,32 @@
+// Closure Definition
+// "A closure is a function that remembers variables from its outer scope even after the outer function has finished execution."
+
+
+// Simple Definition
+// "Closure = Function + Remembered Memory"
+// The function carries its outer variables with it.
+
+// Real-Life Analogy
+
+// Imagine:
+// You cook food in your kitchen and pack it into a lunch box.
+// Then you leave your home and go to office.
+// Even though:
+// kitchen is left behind
+// home is closed
+// You still have the food because it was packed with you.
+
+// In JavaScript
+// Outer function = Home/Kitchen
+// Variables = Food
+// Inner function = Person carrying lunch box
+// Closure = Lunch box memory
+
+// So even after outer function finishes,
+// inner function still carries the variables.
+
+
+
 
 
 function bank(){
