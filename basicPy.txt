@@ -1,0 +1,62 @@
+#Python is programming language used in AI/ML , data science, web development, Automation, backend development
+
+print("Hello everyone")
+str = input("Enter your name:")
+
+# Variables
+# variable is named container used to store data in memory.
+# variable acts as an reference to a object in python as python is dynamically typed 
+
+x = 55
+y = "john"
+print(type(x))
+print(type(y))
+
+
+# Data Types 
+# :- Data types defined what type of data a variable can store
+
+# Data type are of two types
+
+# 1) Immutable data types (cannot change)
+
+# 1. String (str)  ->  Store text
+b = "hello"
+#x[0] = "world"   # ❌
+
+# 2. Integer -> store whole number
+a = 5
+print(a)
+
+# 3. Float -> store decimal number
+num = 4.5
+print(num)
+
+# 4. Boolean -> store only two values i.e. true / false
+is_logged_in  = True
+is_admin = False
+
+# 5. Tuple -> ordered but immutable
+
+c = (1,2,3)
+c[0] = 10  #❌
+
+
+# 2) Mutable data types (can change)
+
+# 1. list (ordered and mutable collection)
+
+fruits = ["orange", "banana"]
+fruits[0] = "mango"
+print(fruits)
+
+# 2. set -> store unique values
+d = {1,2,3,3}
+print(d)
+
+# 3. Dictionary (dict) -> store data in key value pair
+
+x = {
+    "name" : "Anuj",
+    "age" : 22
+}
