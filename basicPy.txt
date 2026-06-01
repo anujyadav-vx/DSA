@@ -57,6 +57,6 @@ print(d)
 # 3. Dictionary (dict) -> store data in key value pair
 
 x = {
-    "name" : "Anuj",
+    "name" : "A",
     "age" : 22
 }
