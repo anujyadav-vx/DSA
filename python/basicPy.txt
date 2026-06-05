@@ -7,10 +7,19 @@ str = input("Enter your name:")
 # variable is named container used to store data in memory.
 # variable acts as an reference to a object in python as python is dynamically typed 
 
+Rules for variable
+1. 1name = "anuj"    --> a variable can't start with number
+2. my age = 25       --> a variable can not have space between 
+3. my-age = 24       --> a variable should not have special characters(!,@,#,$,%,&,*,<,>)
+
+
 x = 55
 y = "john"
 print(type(x))
 print(type(y))
+
+
+
 
 
 # Data Types 

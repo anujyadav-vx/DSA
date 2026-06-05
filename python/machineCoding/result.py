@@ -10,3 +10,8 @@ model.fit(hours, result)
 prediction = model.predict([[5]])
 
 print("Prediction:", prediction)
+
+
+sher = 12
+
+print(sher)
